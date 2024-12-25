@@ -155,16 +155,15 @@
     justify-content: space-around;
     /* background-color: rgb(19, 176, 50); */
     margin-top: 5%;
-  }
-  
-  .features-list li {
+}
+ 
+.features-list li {
     font-size: 18px;
     display: flex;
     align-items: center;
     gap: 5px;
     color: white;
-
- }
+}
  .features-list li img{
     width: 30px;
     height: 30px;
@@ -176,8 +175,69 @@
     border-radius: 5px;
     background-color: rgb(245,132,31);
     border: 2px solid white;
- }
+}
 
+/* ................why.................................... */
+
+.why-choose-us {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:black;
+}
+.why-title{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding-left: 8%;
+    align-items: center;
+    font-size: 22px;
+    color: rgb(245,132,31);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+
+.stats-container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+}
+
+.stat-box {
+    width:30% ;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    /* background-color: rgb(48, 63, 201); */
+    /* border: 1px solid rgb(245,132,31); */
+    background-image: url(luxoria-images/iphone\ wallpapered\ simple\ christmas\ aesthetic.jpeg);
+    background-size: cover;
+}
+.stat-box img {
+    width: 80px;
+    margin-top: 20%;
+}
+
+.stat-box p {
+    font-size: 42px;
+    font-weight: bold;
+    color: rgb(245,132,31);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.stat-box h3 {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
 
  /* ................footer............................... */
 
@@ -224,4 +284,146 @@
     align-items: center;
     justify-content: center;
     /* background-color: aqua;   */
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:769px){
+    
+    /* ...........nav........................ */
+    .navmenu-section{
+        display: none;
+    }
+     /* nav */
+     .nav-items {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background: rgba(255, 255, 255, 0.1); /* Transparent background */
+        backdrop-filter: blur(10px); /* Frosted glass effect */
+        -webkit-backdrop-filter: blur(10px); /* For Safari */
+        border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 52%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+    
+    .nav-items a {
+      line-height: 10px;
+    }
+    
+    .nav-items label {
+        position: absolute;
+        top: -1%;
+        right: 5%;    
+    }
+    .nav-items label img{
+         margin-top: 50%;
+    }
+    .nav-items input {
+      display: block;
+    }
+    
+     #checking:checked~.nav-items {
+        right: 0;
+    }
+    
+    
+   .navbar-container label {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+            
+    }
+    .navbar-container label img{
+    width: 60%;
+    }
+
+
+}
+
+@media (max-width:426px){
+
+    /* nav */
+.navlogo-section img{
+    width: 100px;
+    height: 80px;
+}
+.navbar-container label img{
+    padding: 8%;
+}
+
+
+
+    /* about */
+.about-container{
+    height: 230vh;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+.section-1{
+    width: 100%;
+    height: 100%;
+}
+.about-title{
+    width: 48%;
+    height: 50px;
+}
+.section-2{
+    width: 100%;
+    height: 50%;
+    padding-left: 7%;
+}
+.section-2 img{
+    width: 60%;
+}
+
+/* ..............why..................... */
+    .why-choose-us{
+        height: 150vh;
+    }
+    .stats-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .stat-box {
+        background-position: center;
+    }
+    .stat-box img{
+        width: 50px;
+    }
+    .stat-box p {
+        font-size: 32px;
+    }
+    .stat-box h3 {
+        font-size: 18px;
+    }
+/* ..............footer.................. */
+       .footer-content img{
+        width: 120px;
+    }
+    .footer-contact{
+       display: flex;
+       justify-content: space-evenly;
+       flex-direction: column;
+    }
+    .footer-contact img{
+        width: 30px;
+    }
+    .footer-bottom{
+        font-size: 16px;
+    }
 }
