@@ -683,12 +683,15 @@ input[type="checkbox"] {
     .navbanner-container{
         height: 70vh;
     }
+ 
     /* ..............nav....................... */
     .navlogo-section img{
         width: 100px;
         height: 80px;
     }
-    
+    .menu-icon{
+        padding: 5%;
+    }
     /* ...............banner..................... */
     .banner-container{
         padding-left: 17%;
@@ -905,11 +908,10 @@ input[type="checkbox"] {
         width: 60px;
         height: 50px;
     }
-    .menu-logo{
-        padding: 15%;
-        margin-left: 2%;
+    .menu-icon{
+        padding: 8%;
     }
-    /* .............about...................... */
+ /* .............about...................... */
     .aboutpage-container{
         height: 125vh;
     }

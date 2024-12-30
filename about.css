@@ -587,6 +587,9 @@
 
 
 @media (max-width:321px){
+    .navlogo-section img{
+        padding: 6%;
+    }
     .about-container{
         height: 235vh;
      }

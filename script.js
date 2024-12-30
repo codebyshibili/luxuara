@@ -26,6 +26,12 @@ container.addEventListener('mouseenter', () => {
 
 
 
+function navigateToPage() {
+  window.location.href = "contact.html";
+}
 
 
 
+function serviceToabout() {
+  window.location.href = "about.html";
+}

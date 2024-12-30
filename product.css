@@ -295,8 +295,8 @@
         width: 100px;
         height: 80px;
     }
-    .menu-logo{
-        padding: 10%;
+    .menu-icon{
+        padding: 5%;
     }
      /* ...............banner..................... */
         .banner-container{
@@ -337,6 +337,9 @@
 
 
 @media (max-width:376px){
+    .menu-icon{
+        padding: 8%;
+    }
   /* ..............footer.................. */
   .footer-bottom{
     font-size: 12px;
@@ -344,6 +347,12 @@
 }
 
 @media (max-width:321px){
+    .navlogo-section img{
+        padding: 7%;
+    }
+    .menu-icon{
+        padding: 10%;
+    }
     /* ................product.............. */
     .productpage-container{
         height: 480vh;

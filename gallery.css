@@ -294,4 +294,11 @@
    .footer-bottom{
     font-size: 12px;
 }
+
+}
+
+@media (max-width:321px){
+    .navlogo-section img{
+        padding: 5%;
+    }
 }
