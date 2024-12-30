@@ -35,3 +35,19 @@ function navigateToPage() {
 function serviceToabout() {
   window.location.href = "about.html";
 }
+
+
+
+const elements = document.querySelectorAll('.project-1');
+
+elements.forEach((element) => {
+    // Add hover class on touchstart
+    element.addEventListener('touchstart', () => {
+        element.classList.add('hover');
+    });
+
+    // Remove hover class on touchend
+    element.addEventListener('touchend', () => {
+        element.classList.remove('hover');
+    });
+});
