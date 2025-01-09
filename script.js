@@ -51,3 +51,47 @@ elements.forEach((element) => {
         element.classList.remove('hover');
     });
 });
+
+const elements = document.querySelectorAll('.project-2');
+
+elements.forEach((element) => {
+    // Add hover class on touchstart
+    element.addEventListener('touchstart', () => {
+        element.classList.add('hover');
+    });
+
+    // Remove hover class on touchend
+    element.addEventListener('touchend', () => {
+        element.classList.remove('hover');
+    });
+});
+
+
+const elements = document.querySelectorAll('.project-3');
+
+elements.forEach((element) => {
+    // Add hover class on touchstart
+    element.addEventListener('touchstart', () => {
+        element.classList.add('hover');
+    });
+
+    // Remove hover class on touchend
+    element.addEventListener('touchend', () => {
+        element.classList.remove('hover');
+    });
+});
+
+
+const elements = document.querySelectorAll('.project-4');
+
+elements.forEach((element) => {
+    // Add hover class on touchstart
+    element.addEventListener('touchstart', () => {
+        element.classList.add('hover');
+    });
+
+    // Remove hover class on touchend
+    element.addEventListener('touchend', () => {
+        element.classList.remove('hover');
+    });
+});
